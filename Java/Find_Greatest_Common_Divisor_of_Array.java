@@ -32,10 +32,6 @@ class Find_Greatest_Common_Divisor_of_Array {
             result--;
         }
         return result; // return gcd of a and b
-    }
-
-    private void insertion(int arr[]) {
-
         for (int i = 0; i < arr.length - 1; i++) {
 
             for (int j = i + 1; j > 0; j--) {
