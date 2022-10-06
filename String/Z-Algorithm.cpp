@@ -20,7 +20,6 @@ void solve(string str,int n,vector<int>& arr){
                 while(r < n && str[r] == str[r-l]){
                     r++;
                 }
-                arr[i] = r-l;
                 r--;
             }
         }
